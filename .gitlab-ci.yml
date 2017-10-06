@@ -1,0 +1,15 @@
+stages:
+- deploy
+deploy:
+  stage: deploy
+  script:
+    - export PATH=$PATH:/opt/node-v6.11.2-linux-x64/bin
+    - npm install
+    - hexo generate
+    - rm -rf /var/www/blog.shuosc.org/*
+    - cp public/* /var/www/blog.shuosc.org -R
+
+  only:
+    - master
+  tags:
+    - shell
