@@ -1,0 +1,32 @@
+menu:
+    首页: /
+    全部文章: /archives/
+    镜像站: https://mirrors.shuosc.org
+    上大助手: https://www.shuhelper.cn
+    上大导航: https://shuers.link
+
+widgets:
+- category
+- tag
+- tagcloud
+- archive
+
+# count
+show_count: true
+favicon: /images/favicon.ico
+logo: /images/logo.png
+
+# Comment
+changyan: shuosc
+yungentie: 
+disqus:
+duoshuo: 
+
+
+# Analytics
+# google-analytics:
+ga: 
+
+# Copyright Infomation
+startyear: 2016
+
