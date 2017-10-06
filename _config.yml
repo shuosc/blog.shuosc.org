@@ -79,6 +79,4 @@ theme: bubuzou
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: git@blog.shuosc.org:/home/git/blog.shuosc.org/blog.shuosc.org.git
-  branch: master
+  type: 
