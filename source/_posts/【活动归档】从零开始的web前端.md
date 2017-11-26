@@ -1,0 +1,33 @@
+---
+title: 从零开始的web前端
+author: shuosc
+date: 2017-11-26 23:32:14
+tags: 活动记录
+categories: 社区活动
+---
+马上就是小长假，夏天基本也算过去了，桂花都开始冒香气。
+
+国庆快乐啦
+
+2017年9月29日下午六点，上海大学开源社区在东区计算机楼511举行了本学期的第三次活动。
+
+今天用了投影忘记拍照了orz，但是假装这里有个照片好吧。
+
+依旧是约共二十多人参与了本次活动，女程序员的数量忘记数了。
+
+本次活动纯教学，所以发一下纲要。
+
+在整个过程中，从最基础的HTML/CSS/JS开始介绍了最简单的情况下做出来的网页是什么样子的。
+
+随后介绍了CSS框架，JS框架的概念，以及这些工具如何使前端开发变得便利。
+
+最后，以谷歌邮箱为例，介绍了现代的网页，他们所起到的作用，以及背后所涉及到的技术。比较浅显地介绍了这些web前端在移动端应用，桌面端应用的新形势以及美好前景。
+
+| 附录 |
+| :------- |
+|[w3school](http://www.w3school.com.cn)|
+|[Mozilla 开发者网络（MDN）](https://developer.mozilla.org/zh-CN)|
+|[Bootstrap中文网](http://www.bootcss.com)|
+|[runoob菜鸟教程](http://www.runoob.com)|
+|[codepen.io](https://codepen.io)|
+|[FreeCodeCamp](https://www.freecodecamp.org)|
