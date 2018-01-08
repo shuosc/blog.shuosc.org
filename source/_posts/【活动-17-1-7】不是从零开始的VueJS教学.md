@@ -15,6 +15,8 @@ categories: 社区活动
 
 本次分享主讲人是又帅又强的 <font color=#0099ff> @Adrian </font> ，安老师写出了很棒的SHUer.link。
 
+<!--more-->
+
 ![安老师](/img/17秋/6.2.jpg)
 
 对前端开发有一定了解的同学应该都知道Angluar/Reacr/Vue，安老师先介绍了现代前端开发的基本情况，随后开始了正式的教学。

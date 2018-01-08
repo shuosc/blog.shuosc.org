@@ -2,7 +2,7 @@
 title: RESTful API的设计及应用
 author: shuosc
 date: 2017-11-26 23:55:49
-tags: 活动记录
+tags: 活动归档 17-18秋季学期
 categories: 社区活动
 ---
 转眼间已经是第六周，俗话说得好，过完一半另一半也快过完了。
@@ -16,6 +16,8 @@ categories: 社区活动
 本次分享主讲人是 <font color=#0099ff> @李盛洲 </font> 学长，李盛洲学长制作并维护了很棒的开源社区镜像站。
 
 ![PPT首页](/img/17秋/5.2.jpg)
+
+<!--more-->
 
 在web开发的新时代到来之后，REST迅速成为主流的前后端通信的机制。
 
