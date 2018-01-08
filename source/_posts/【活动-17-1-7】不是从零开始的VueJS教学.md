@@ -1,9 +1,10 @@
 ---
 title: 不是从零开始的VueJS教学
 author: shuosc
-date: 2017-11-27 00:03:36
 tags: 活动记录
 categories: 社区活动
+abbrlink: 1e1fadb8
+date: 2017-11-27 00:03:36
 ---
 居然已经第七周了吧，每周都要感慨一下时间过得真快这样。
 

@@ -1,9 +1,10 @@
 ---
 title: RESTful API的设计及应用
 author: shuosc
-date: 2017-11-26 23:55:49
 tags: 活动归档 17-18秋季学期
 categories: 社区活动
+abbrlink: 479ebf45
+date: 2017-11-26 23:55:49
 ---
 转眼间已经是第六周，俗话说得好，过完一半另一半也快过完了。
 
