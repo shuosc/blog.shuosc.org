@@ -1,5 +1,8 @@
 # 上海大学开源社区官方博客
 
+[![pipeline status](https://git.shuosc.org/shuosc/blog.shuosc.org/badges/master/pipeline.svg)](https://git.shuosc.org/shuosc/blog.shuosc.org/commits/master)
+
+
 [https://blog.shuosc.org](https://blog.shuosc.org)
 
 ```bash
