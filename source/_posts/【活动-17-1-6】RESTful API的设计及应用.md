@@ -1,7 +1,9 @@
 ---
 title: RESTful API的设计及应用
 author: shuosc
-tags: 活动归档 17-18秋季学期
+tags:
+- 活动归档
+- 17-18秋季学期
 categories: 社区活动
 abbrlink: 479ebf45
 date: 2017-11-26 23:55:49
@@ -28,10 +30,10 @@ date: 2017-11-26 23:55:49
 
 ![今天的投影仪又亮又闪](/img/17秋/5.3.jpg)
 
-| 附录 |
-| :------- |
-|[本次活动的PPT](https://github.com/shuopensourcecommunity/meta-OSC/raw/master/activities/2017/autumn/week6/RESTful%20API.pptx)|
-|[开源的SSL证书](https://letsencrypt.org)|
-|[开源的对象存储服务](https://minio.io)|
-|[豆瓣应用API](https://developers.douban.com/wiki/?title=guide)|
-|[Github API](https://developer.github.com/v3)|
+| 附录                                       |
+| :--------------------------------------- |
+| [本次活动的PPT](https://github.com/shuopensourcecommunity/meta-OSC/raw/master/activities/2017/autumn/week6/RESTful%20API.pptx) |
+| [开源的SSL证书](https://letsencrypt.org)      |
+| [开源的对象存储服务](https://minio.io)            |
+| [豆瓣应用API](https://developers.douban.com/wiki/?title=guide) |
+| [Github API](https://developer.github.com/v3) |

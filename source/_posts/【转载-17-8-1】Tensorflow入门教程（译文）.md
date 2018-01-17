@@ -1,7 +1,11 @@
 ---
 title: Tensorflow入门教程（译文）
 author: npa
-tags: 文章转载
+tags: 
+- 文章转载
+- Tensorflow
+- 深度学习
+- python
 categories: 转载
 abbrlink: 64da684
 date: 2017-08-01 05:16:14
