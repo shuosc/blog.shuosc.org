@@ -6,7 +6,7 @@ html(lang=config.language)
         header
            .header.row 
                 a.logo-link(href=url_for())
-                    img.logo-link(src=theme.logo)
+                    img.logo-link(src=url_for(theme.logo))
                     p.logo-link.logo-title= config.title
                 include nav
                 .search

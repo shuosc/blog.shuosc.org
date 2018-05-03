@@ -13,8 +13,8 @@ widgets:
 
 # count
 show_count: true
-favicon: /blog/images/favicon.ico
-logo: /blog/images/logo.png
+favicon: /images/favicon.ico
+logo: /images/logo.png
 
 # Comment
 changyan: shuosc
