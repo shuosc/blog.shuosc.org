@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://osc.shu.edu.cn
-root: /blog/
+root: /blog
 permalink: p/:abbrlink.html
 abbrlink:
   alg: crc32  #support crc16(default) and crc32
