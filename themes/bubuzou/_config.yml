@@ -1,6 +1,6 @@
 menu:
-    首页: /
-    全部文章: /archives/
+    首页: /blog/
+    全部文章: /blog/archives/
     镜像站: https://mirrors.shu.edu.cn
     上大助手: https://www.shuhelper.cn
     上大导航: https://shuer.link
@@ -13,8 +13,8 @@ widgets:
 
 # count
 show_count: true
-favicon: /images/favicon.ico
-logo: /images/logo.png
+favicon: /blog/images/favicon.ico
+logo: /blog/images/logo.png
 
 # Comment
 changyan: shuosc

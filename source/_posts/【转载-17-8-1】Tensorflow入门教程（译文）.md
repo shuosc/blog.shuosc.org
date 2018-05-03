@@ -11,7 +11,7 @@ abbrlink: 64da684
 date: 2017-08-01 05:16:14
 ---
 
-![Tensorflow banner](/img/17夏/1.1.png)
+![Tensorflow banner](/blog/img/17夏/1.1.png)
 
 Tensorflow 提供了很多 API，最底层的叫 TensorFlow Core ，它提供完整的编程控制（我理解就是说底层控制）。我们推荐搞机器学习的研究人员或者其他的想对自己的模型有一个很好的控制的人用 TensorFlow Core 。
 
@@ -114,7 +114,7 @@ sess.run(node3):  7.0
 
 TensorFlow 提供了一个叫 TensorBoard 的功能来可视化计算图。截图如下：
 
-![TensorBoard计算图](/img/17夏/1.2.webp)
+![TensorBoard计算图](/blog/img/17夏/1.2.webp)
 
 这图什么太大意思，因为它就是输出个常量。不过一个计算图可以用参数来表示获得外部输入，称之为占位符 （placeholder）。占位符就是保证接下来这个位置会被提供一个值。
 
@@ -140,7 +140,7 @@ print(sess.run(adder_node, feed_dict = {a: [1,3], b: [2, 4]}))
 
 TensorBoard中的结构是这样的：
 
-![TensorBoard计算图2](/img/17夏/1.3.webp)
+![TensorBoard计算图2](/blog/img/17夏/1.3.webp)
 
 也可以再加一些操作，让计算图变得更加复杂，比如：
 
@@ -157,7 +157,7 @@ print(sess.run(add_and_triple, {a: 3, b:4.5}))
 
 现在的计算图是这个样子的：
 
-![TensorBoard计算图2](/img/17夏/1.4.webp)
+![TensorBoard计算图2](/blog/img/17夏/1.4.webp)
 
 最典型的就是在机器学习里面我们就想要一个模型可以接受这样的任意输入，这一点已经解决了。接下来要让这个模型变得可训练，就要有变量这个概念，让模型（在训练前后）对于相同的输入能给出不同的输出。变量 Variables 允许我们向图里加可以训练的参量。变量由类型和初始值来构造：
 
