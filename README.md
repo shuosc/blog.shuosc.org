@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b36fa4a2-3909-4742-9bdd-79719e85baa0/deploy-status)](https://app.netlify.com/sites/shuosc-blog/deploys)
+
 # 上海大学开源社区官方博客
 
 [![pipeline status](https://git.shuosc.org/shuosc/blog.shuosc.org/badges/master/pipeline.svg)](https://git.shuosc.org/shuosc/blog.shuosc.org/commits/master)
