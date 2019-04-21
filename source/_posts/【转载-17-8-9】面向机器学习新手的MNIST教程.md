@@ -12,7 +12,7 @@ tags:
 categories: 转载
 ---
 
-![Tensorflow banner](/blog/img/17夏/2.1.png)
+![Tensorflow banner](../img/17夏/2.1.png)
 
 学编程的时候，传统上第一件事就是 print 一个 “Hello World”，在机器学习领域，这件事情就是 MNIST。
 
@@ -66,7 +66,7 @@ MNIST 数据分为三部分：55000 份训练数据 (`mnist.train`), 10000 份�
 
 每一张图片都宽高 28 像素，可以看作一个大数组：
 
-![image 28x28 pixels](/blog/img/17夏/2.2.webp)
+![image 28x28 pixels](../img/17夏/2.2.webp)
 
 我们可以把这个二维数组变成一个 28 x 28 = 784 维度的向量。怎么展开它无关紧要，只要保持每个图片都是用一致的方法展开的就行。这样来看，MNIST 图片就是一堆 784 维的向量，而且结构丰富 (注意，这篇文章里面的结果是通过计算加强可视性了的)。
 
@@ -74,13 +74,13 @@ MNIST 数据分为三部分：55000 份训练数据 (`mnist.train`), 10000 份�
 
 上面的结果就是 `mnist.train.images` 是一个 shape 为 [55000, 784] 的 tensor。第一个维度就是一系列图片的下标，第二个维度就是这张图片的每一个像素点。这个 tensor 最里面的成员就是特定图片的特定像素点的灰度值，在 0-1 之间。
 
-![mnist.train.xs](/blog/img/17夏/2.3.webp)
+![mnist.train.xs](../img/17夏/2.3.webp)
 
 每个 MNIST 图片都有一个对应的标签， 是一个 0-9 的数字，代表了手写图片写的是什么。
 
 本教程中，标签应该是 "one-hot" 向量。one-hot 向量是一个大部分都是 0，但是有一个 1 的向量。这个例子中，1 在第 n 个位置的话就代表这是数字几。比方说，3 的 one-hot 向量形式就是 [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]。结果 `mnist.train.labels` 就是一个 [55000, 10] 的向量。
 
-![mnist.train.ys](/blog/img/17夏/2.4.webp)
+![mnist.train.ys](../img/17夏/2.4.webp)
 
 ### softmax 回归
 
@@ -100,7 +100,7 @@ softmax 回归有两步：一是搜集输入的数据是某种类的” 证据 �
 
 可是我们的图片是扁平化的，成了一个 784 维向量，对应的，这些权值矩阵也要同理压缩，所以我们得到 10 个 784 维的权重向量。所以就得到一个 shape 是 [784, 10] 的 tensor。接下来一张图进来，shape 是 [1, 784]，一共有 784 个点，它的每个点先依次和第 1 行指示这张图是不是 0 的 784 个权相乘，求和，得到一个值，然后依次和第 2 行指示这张图是不是 1 的 784 个权相乘，求和……以此类推。最后得到十个值，也就是这张图分属十个类的 “证据” 值。熟悉线性代数的同学可能发现这就是一个典型的矩阵相乘，这就是为什么后面用矩阵乘法代替了看上去很可怕的求和写法。）
 
-![mnist.train.ys](/blog/img/17夏/2.5.webp)
+![mnist.train.ys](../img/17夏/2.5.webp)
 
 我们还可以加上一些叫做偏置（bias）的附加证据，这是为了体现跟输入本身关系不大的一些事实。总的来说，一个类 i，给定一个输入 x，证据 evidence 就是：
 
@@ -124,15 +124,15 @@ softmax 回归有两步：一是搜集输入的数据是某种类的” 证据 �
 
 你可以把 softmax 回归理解成下面这张图的样子，不过真实情况下还有很多很多的 x 输入罢了。（而且 Wi, jWi, j 因为有 10 个类，所以 i 要到 10）。对于每个输出我们都是用对应类的权矩阵和输入 x 乘起来，加上偏置，然后 softmax 归一化。
 
-![softmax neural network](/blog/img/17夏/2.6.webp)
+![softmax neural network](../img/17夏/2.6.webp)
 
 如果我们写成方程的样子的话：
 
-![softmax linear equation](/blog/img/17夏/2.7.webp)
+![softmax linear equation](../img/17夏/2.7.webp)
 
 我们也可以所谓”向量化“这个过程，把它变成一个矩阵和输入向量做乘法。这对计算和理解都有好处。
 
-![softmax vectorization](/blog/img/17夏/2.8.webp)
+![softmax vectorization](../img/17夏/2.8.webp)
 
 要写得更加紧凑的话：
 
